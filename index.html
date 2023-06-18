@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .form {
+        width: 60%;
+        margin: auto;
+        background-color: #a9a9a952;
+        padding: 10px;
+        border-radius: 10px;
+        box-sizing: border-box;
+      }
+      .input {
+        border: none;
+        border-radius: 5px;
+        padding: 4px;
+        width: 70%;
+        margin-right: 10px;
+      }
+      .add {
+        border: none;
+        padding: 4px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .input:focus {
+        outline: none;
+      }
+      .tasks {
+        width: 60%;
+        background-color: #a9a9a952;
+        margin: 20px auto;
+        border-radius: 5px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form">
+      <input type="text" id="name" class="input" />
+      <input type="submit" id="nam" class="add" value="Add Task" />
+    </form>
+    <div class="tasks"></div>
+    <script src="js/master.js"></script>
+  </body>
+</html>
